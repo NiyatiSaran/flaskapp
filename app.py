@@ -6,8 +6,8 @@ app = Flask(__name__)
 db = mysql.connector.connect(
     host="database-1.c9yueoki0zls.eu-north-1.rds.amazonaws.com",
     user="admin",
-    password="Test#123",
-    database="myprojectdb"
+    password="Niyatisaran09112003",
+    database="database-1"
 )
 
 @app.route('/')
